@@ -1,7 +1,6 @@
 import { useQuery, useMutation, useAction } from "convex/react";
 import { api } from "../convex/_generated/api";
 import { FormEvent, useEffect, useState } from "react";
-import { faker } from "@faker-js/faker";
 import { useSelector } from "react-redux";
 import { UserOnClient } from "./types/user";
 import { Navigate } from "react-router-dom";

@@ -9,7 +9,6 @@
     "predev": "convex dev --run init --until-success"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.0.2",
     "@reduxjs/toolkit": "^2.2.1",
     "convex": "1.10.0",
     "prettier": "2.8.8",
