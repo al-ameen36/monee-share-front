@@ -36,6 +36,8 @@ export const sendToDB = action({
         method: "POST",
         body: JSON.stringify({ content, phone })
       });
+      console.log(data);
+
     }
     else return { error: "API url not set" }
   },
